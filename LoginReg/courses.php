@@ -66,10 +66,10 @@ $result = $conn->query($sql);
                   </div>
                 </div>
               </a>
-              <a href="login.php">
-                <div id="menuentry_7b617898" class="menustyle4 menu_775b86c0_mainMenuEntry normalEntry">
+              <a href="login.php" style="text-decoration:none">
+                <div id="menuentry_5290aaf6" class="menustyle4 menu_775b86c0_mainMenuEntry normalEntry">
                   <div class="menuentry_text2">
-                    <span class="textstyle5">LOGIN</span>
+                    <span class="textstyle4">LOGIN</span>
                   </div>
                 </div>
               </a>

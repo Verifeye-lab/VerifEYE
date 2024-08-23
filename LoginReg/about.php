@@ -21,7 +21,7 @@
             <div class="menuholder1" style="overflow: hidden;"><a href="javascript:void(0);">
                 <div id="menuentry_657e55aa" class="menustyle1 menu_3ed1db06_mainMenuEntry mobileEntry">
                   <div class="menuentry_text1">
-                    <span class="textstyle3">Menu ▼</span>
+                    <span class="textstyle3">MENU ▼</span>
                   </div>
                 </div>
               </a>
@@ -98,7 +98,7 @@
   <div id="headerab"><span class="textstyle7">VERIFEYE</span><span class="textstyle8">CREATORS</span></div><br><br><br><br><br><br><br>
   <div class="textstyle2">
     <div class="creatorspart">
-      <div id="button_2ab67bc9">
+      <div class="button_2ab67bc9">
         <div class="vcenterstyle1">
           <div class="vcenterstyle2">
             <div class="textstyle1">
@@ -116,7 +116,7 @@
           </div>
         </div>
       </div>
-      <div id="button_7fa21dec">
+      <div class="button_2ab67bc9">
         <div class="vcenterstyle1">
           <div class="vcenterstyle2">
             <div class="textstyle1">
@@ -134,7 +134,7 @@
           </div>
         </div>
       </div>
-      <div id="button_16807a67">
+      <div class="button_2ab67bc9">
         <div class="vcenterstyle1">
           <div class="vcenterstyle2">
             <div class="textstyle1">
@@ -152,7 +152,7 @@
           </div>
         </div>
       </div>
-      <div id="button_409996f1">
+      <div class="button_2ab67bc9 lastone">
         <div class="vcenterstyle1">
           <div class="vcenterstyle2">
             <div class="textstyle1">
@@ -171,7 +171,27 @@
         </div>
       </div>
     </div>
-  </div><br>
+    <br>
+      <div class="button_2ab67bc9">
+        <div class="vcenterstyle1">
+          <div class="vcenterstyle2">
+            <div class="textstyle1">
+              <div id="text_5ddaa22c">
+                <div class="textstyle1">
+                  <span class="textstyle10">POGHOS POGHOSYAN</span>
+                </div>
+              </div>
+              <div id="text_48303f72">
+                <div class="textstyle1">
+                  <span class="textstyle11">Programmer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="textstyle1" style="text-align: center;"><br><br><br><br>
     <span class="textstyle8">ABOUT</span><br><br><br>
   <span class="textstyle9">The Verifeye is an innovative application designed to estimate the time based on the position of the sun using an image of an object and its shadow. This project combines computer vision, image processing, and data retrieval techniques to provide users with an accurate estimation of the solar time.</span></div><br><br>

@@ -64,7 +64,6 @@ body {
 #menu_3dae042d .normalEntry {
 	display: block;
 }
-
 @media only screen and (max-width:450px) {
 	#menu_3dae042d .mobileEntry {
 		display: block;
@@ -92,7 +91,7 @@ body {
 	vertical-align: top;
 	position: relative;
 	display: inline-block;
-	/*width: 100%;*/
+	width: 100%;
 	min-height: 14px;
 }
 
@@ -258,6 +257,12 @@ body {
 	display: block;
 }
 
+@media only screen and (max-width: 450px) {
+    #container_3b4af324 {
+        width: 100%;
+    }
+}
+
 #text_19a214ce {
 	vertical-align: bottom;
 	position: relative;
@@ -272,6 +277,12 @@ body {
 		font-weight: 500;
 		font-style: bold;
 	color: #FFFFFF;
+}
+
+@media only screen and (max-width: 450px) {
+    .textstyle7 {
+        font-size: 80px; /* Adjust based on design needs */
+    }
 }
 
 #button_down {
@@ -292,6 +303,12 @@ body {
 
 #button_down:hover{
 	background-color: #c5c5c5;
+}
+
+@media only screen and (max-width: 450px) {
+    #button_down {
+        width: 350px; /* Adjust based on design needs */
+    }
 }
 
 .vcenterstyle1 {

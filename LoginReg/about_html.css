@@ -96,7 +96,7 @@ body {
 	vertical-align: top;
 	position: relative;
 	display: inline-block;
-	/*width: 100%;*/
+	width: 100%;
 	min-height: 14px;
 	background-color: #001129;
 }
@@ -237,6 +237,12 @@ body {
 	color: #FFFFFF;
 }
 
+@media only screen and (max-width: 450px) {
+    .textstyle7 {
+        font-size: 80px; /* Adjust based on design needs */
+    }
+}
+
 #text_21d9b795 {
 	position: absolute;
 	left: 43%;
@@ -253,6 +259,12 @@ body {
   	font-weight: 500;
   	font-style: bold;
 	color: #FFFFFF;
+}
+
+@media only screen and (max-width: 450px) {
+    .textstyle8 {
+        font-size: 60px; /* Adjust based on design needs */
+    }
 }
 
 #text_35a78225 {
@@ -287,7 +299,7 @@ body {
 	display: block;
 }
 
-#button_2ab67bc9 {
+.button_2ab67bc9 {
 	vertical-align: bottom;
 	border-radius: 30px;
 	position: relative;
@@ -296,6 +308,17 @@ body {
 	height: 310px;
 	background-color: #FFFFFF;
 }
+
+@media only screen and (max-width: 450px) {
+    .button_2ab67bc9 {
+		margin-bottom: 20px;
+	}
+	.lastone {
+		margin-bottom: 0px;
+	}
+}
+
+
 
 .vcenterstyle1 {
 	display: table;
@@ -581,6 +604,14 @@ body {
 	min-height: 150px;
 	background: none;
 	justify-content: space-evenly;
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 450px) {
+	.creatorspart {
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 .menustyle4 {

@@ -92,7 +92,7 @@ body {
 	vertical-align: top;
 	position: relative;
 	display: inline-block;
-	/*width: 100%;*/
+	width: 100%;
 	min-height: 14px;
 	background-color: #001129;
 }
@@ -231,7 +231,7 @@ body {
     border-radius: 30px;
     position: relative; /* Change to relative positioning */
     height: fit-content;
-    width: 1021px;
+    width: 60%;
     background-color: #FFFFFF;
     margin-bottom: 10px; /* Add space between buttons */
 }
