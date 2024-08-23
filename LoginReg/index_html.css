@@ -290,6 +290,10 @@ body {
   	font-style: bold;
 }
 
+#button_down:hover{
+	background-color: #c5c5c5;
+}
+
 .vcenterstyle1 {
 	display: table;
 	width: 100%;

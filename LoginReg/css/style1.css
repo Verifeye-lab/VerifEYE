@@ -11,7 +11,8 @@
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 50, 0.7), rgba(0, 0, 50, 0.7)), url('../images/background.jpg');
+    background-color: #001129;
+    background-image: url(../rc_images/background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -46,7 +47,7 @@ body {
 }
 
 .form-box hr {
-    background-color: #2B547E;
+    background-color: #001129;
     height: 5px;
     width: 20%;
     border: none;
@@ -112,7 +113,7 @@ body {
 .btn {
     height: 45px;
     width: 80%;
-    background-color: #2B547E;
+    background-color: #001129;
     border: 0;
     border-radius: 5px;
     color: #fff;

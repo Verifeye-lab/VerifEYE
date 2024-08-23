@@ -1,3 +1,23 @@
+<?php
+// Database credentials
+$servername = "localhost";
+$username = "root";  // Replace with your MySQL username
+$password = "";      // Replace with your MySQL password
+$dbname = "courses_db";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Fetch courses from database
+$sql = "SELECT id, course_name, course_description, instructor, duration FROM courses";
+$result = $conn->query($sql);
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -86,56 +106,92 @@
       </div>
     </div><br><br>
     <div class="classes">
-      <a class="button_11679a48" href="courseinfo.php">
-      <div class="button_11679a48">
+    <?php
+    if ($result->num_rows > 0) {
+        echo "<table>";
+        echo "<tr><th>ID</th><th>Course Name</th><th>Description</th><th>Instructor</th><th>Duration</th></tr>";
+        while ($row = $result->fetch_assoc()) {
+            echo '<a  class="lesson_button" href="courseinfo.php">';
+            echo '<div class="lesson_button">';
+            echo '<h2 class="coursesc">' . $row["course_name"] . "</h2>";  
+            echo "</div>";
+            echo "</a>";
+        }
+        echo "</table>";
+    } else {
+        echo "<p>No courses available.</p>";
+    }
+
+    // Close the connection
+    $conn->close();
+    ?>
+    <!-- 
+      <a class="lesson_button" href="courseinfo.php">
+      <div class="lesson_button">
         <h2 class="coursesc">Lesson 1</h2>
       </div>
       </a>
-      <a class="button_11679a48" href="courseinfo.php">
-      <div class="button_11679a48">
+      <a class="lesson_button" href="courseinfo.php">
+      <div class="lesson_button">
         <h2 class="coursesc">Lesson 2</h2>
       </div>
       </a>
-      <a class="button_11679a48" href="courseinfo.php">
-      <div class="button_11679a48">
+      <a class="lesson_button" href="courseinfo.php">
+      <div class="lesson_button">
         <h2 class="coursesc">Lesson 3</h2>
       </div>
       </a>
-      <a class="button_11679a48" href="courseinfo.php">
-      <div class="button_11679a48">
+      <a class="lesson_button" href="courseinfo.php">
+      <div class="lesson_button">
         <h2 class="coursesc">Lesson 4</h2>
       </div>
       </a>
-      <a class="button_11679a48" href="courseinfo.php">
-      <div class="button_11679a48">
+      <a class="lesson_button" href="courseinfo.php">
+      <div class="lesson_button">
         <h2 class="coursesc">Lesson 5</h2>
       </div>
       </a>
-      <a class="button_11679a48" href="courseinfo.php">
-      <div class="button_11679a48">
+      <a class="lesson_button" href="courseinfo.php">
+      <div class="lesson_button">
         <h2 class="coursesc">Lesson 6</h2>
       </div>
       </a>
-      <a class="button_11679a48" href="courseinfo.php">
-      <div class="button_11679a48">
+      <a class="lesson_button" href="courseinfo.php">
+      <div class="lesson_button">
         <h2 class="coursesc">Lesson 7</h2>
       </div>
       </a>
-      <a class="button_11679a48" href="courseinfo.php">
-      <div class="button_11679a48">
+      <a class="lesson_button" href="courseinfo.php">
+      <div class="lesson_button">
         <h2 class="coursesc">Lesson 8</h2>
       </div>
       </a>
-      <a class="button_11679a48" href="courseinfo.php">
-      <div class="button_11679a48">
+      <a class="lesson_button" href="courseinfo.php">
+      <div class="lesson_button">
         <h2 class="coursesc">Lesson 9</h2>
       </div>
       </a>
-      <a class="button_11679a48" href="courseinfo.php">
-      <div class="button_11679a48">
+      <a class="lesson_button" href="courseinfo.php">
+      <div class="lesson_button">
         <h2 class="coursesc">Lesson 10</h2>
       </div>
       </a>
+      <a class="lesson_button" href="courseinfo.php">
+      <div class="lesson_button">
+        <h2 class="coursesc">Lesson 11</h2>
+      </div>
+      </a>
+      <a class="lesson_button" href="courseinfo.php">
+      <div class="lesson_button">
+        <h2 class="coursesc">Lesson 12</h2>
+      </div>
+      </a>
+      <a class="lesson_button" href="courseinfo.php">
+      <div class="lesson_button">
+        <h2 class="coursesc">Lesson 13</h2>
+      </div>
+      </a>
+      -->
     </div>
   </div>
 </body>

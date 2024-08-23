@@ -1,3 +1,29 @@
+.pdf {
+	width: 100%;
+	aspect-ratio: 4 / 3;
+}
+
+.pdf {
+	width: 100%;
+	aspect-ratio: 4 / 3;
+}
+
+.pdf,
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h3 {
+	text-align: center;
+}
+
+h1 {
+	color: green;
+}	
 a {
 	color: #5D5D9E;
 }
@@ -497,6 +523,10 @@ body {
     font-family: sans-serif;
     font-weight: 500;
 	text-decoration: underline;
+}
+
+.coursedesc {
+	text-decoration: none;
 }
 
 .classes {
