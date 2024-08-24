@@ -118,7 +118,7 @@ body {
 	vertical-align: top;
 	position: relative;
 	display: inline-block;
-	/*width: 100%;*/
+	width: 100%;
 	min-height: 14px;
 	background-color: #001129;
 }

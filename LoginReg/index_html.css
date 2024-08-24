@@ -17,7 +17,7 @@ a:hover {
 html,
 body {
 	min-height: 100%
-}
+}.textstyle5
 
 #menu_3dae042d a {
 	text-decoration: none;
@@ -197,7 +197,6 @@ body {
   	font-weight: 500;
   	font-style: bold;
 	color: #C5C5C5;
-	font-weight: bold;
 	white-space: nowrap;
 }
 

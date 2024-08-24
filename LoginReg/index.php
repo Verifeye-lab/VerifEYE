@@ -63,19 +63,6 @@
 									</div>
 								</div>
 							</a>
-
-							<script type="text/javascript" src="rc_images/wsp_menu.js"></script>
-							<script type="text/javascript">
-								var js_menu_3dae042d = new wsp_menu('menu_3dae042d', 'menu_3dae042d', 10, null, true);
-
-								js_menu_3dae042d.createMenuForItem('menuentry_30ba40bc', ["      <span class=\"textstyle6\">HOME</span> ", 'javascript:void(0);', '',
-									"      <span class=\"textstyle6\">ABOUT</span> ", 'about.php', '',
-									"      <span class=\"textstyle6\">COURSES</span> ", 'courses.php', '']);
-								js_menu_3dae042d.createMenuForItem('menuentry_64f37254', []);
-								js_menu_3dae042d.createMenuForItem('menuentry_3f14847d', []);
-								js_menu_3dae042d.createMenuForItem('menuentry_567eab73', []);
-
-							</script>
 						</div>
 						<div id="menu_3dae042d_pane"
 							style="position: absolute; left: 0px; top: 10px; overflow: visible; z-index: 10; visibility: hidden; display: none; width: 119px; white-space: nowrap;">
@@ -111,6 +98,7 @@
 						</div>
 					</div>
 				</div>
+				<form action=""></form>
 				<div style="clear:both"></div>
 			</div>
 		</div>

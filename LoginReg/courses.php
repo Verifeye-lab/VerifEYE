@@ -73,19 +73,6 @@ $result = $conn->query($sql);
                   </div>
                 </div>
               </a>
-
-              <script type="text/javascript" src="rc_images/wsp_menu.js"></script>
-              <script type="text/javascript">
-                var js_menu_775b86c0 = new wsp_menu('menu_775b86c0', 'menu_775b86c0', 10, null, true);
-
-                js_menu_775b86c0.createMenuForItem('menuentry_40f71978', ["      <span class=\"textstyle6\">HOME</span> ", 'index.php', '',
-                  "      <span class=\"textstyle6\">ABOUT</span> ", 'about.php', '',
-                  "      <span class=\"textstyle6\">COURSES</span> ", 'javascript:void(0);', '']);
-                js_menu_775b86c0.createMenuForItem('menuentry_19eb25b', []);
-                js_menu_775b86c0.createMenuForItem('menuentry_5290aaf6', []);
-                js_menu_775b86c0.createMenuForItem('menuentry_7b617898', []);
-
-              </script>
             </div>
             <div id="menu_775b86c0_pane"
               style="position: absolute; left: 0px; top: 10px; overflow: visible; z-index: 10; visibility: hidden; display: none; width: 119px; white-space: nowrap;">

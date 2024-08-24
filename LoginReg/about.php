@@ -53,19 +53,6 @@
                   </div>
                 </div>
               </a>
-
-              <script type="text/javascript" src="rc_images/wsp_menu.js"></script>
-              <script type="text/javascript">
-                var js_menu_3ed1db06 = new wsp_menu('menu_3ed1db06', 'menu_3ed1db06', 10, null, true);
-
-                js_menu_3ed1db06.createMenuForItem('menuentry_657e55aa', ["      <span class=\"textstyle6\">HOME</span> ", 'index.php', '',
-                  "      <span class=\"textstyle6\">ABOUT</span> ", 'javascript:void(0);', '',
-                  "      <span class=\"textstyle6\">COURSES</span> ", 'courses.php', '']);
-                js_menu_3ed1db06.createMenuForItem('menuentry_c145133', []);
-                js_menu_3ed1db06.createMenuForItem('menuentry_25d41ca0', []);
-                js_menu_3ed1db06.createMenuForItem('menuentry_a8bef60', []);
-
-              </script>
             </div>
             <div id="menu_3ed1db06_pane"
               style="position: absolute; left: 0px; top: 10px; overflow: visible; z-index: 10; visibility: hidden; display: none; width: 119px; white-space: nowrap;">
